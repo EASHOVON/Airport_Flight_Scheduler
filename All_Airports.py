@@ -9,7 +9,7 @@ from math import radians,sin,cos,atan2,sqrt
 
 
 # Making All Airport class for manage All Airport in the world
-class AllAirport:
+class AllAirports:
     def __init__(self) -> None:
         self.airports = None
         self.load_airport_data('./data/airport.csv')
